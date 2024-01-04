@@ -167,7 +167,7 @@ WatchFaceAnalog::~WatchFaceAnalog() {
   lv_style_reset(&minute_line_style);
   lv_style_reset(&minute_line_style_trace);
   lv_style_reset(&second_line_style);
-  lv_style_reset(&backdrop);
+//  lv_style_reset(&backdrop);
 
   lv_obj_clean(lv_scr_act());
 }
