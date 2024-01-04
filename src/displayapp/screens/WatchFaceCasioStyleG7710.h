@@ -12,8 +12,6 @@
 #include "utility/DirtyValue.h"
 #include "displayapp/apps/Apps.h"
 
-#include "displayapp/screens/Classes.h"
-
 namespace Pinetime {
   namespace Controllers {
     class Settings;
