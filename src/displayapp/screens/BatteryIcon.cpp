@@ -29,7 +29,7 @@ double BatteryIcon::ColorRamp(double percentage) {
 
     if (val >= 0.05) { 
         if (val >  0.25 && val < 0.75) {
-            return 0.33333 * 360;
+            return 0.333333 * 360;
         } else if (val >= 0.9) {
             return 0.5 * 360;
         } else if (val < 0.5) {
