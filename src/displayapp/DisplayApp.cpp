@@ -31,8 +31,6 @@
 #include "displayapp/screens/PassKey.h"
 #include "displayapp/screens/Error.h"
 
-#include "displayapp/screens/Classes.h"
-
 #include "drivers/Cst816s.h"
 #include "drivers/St7789.h"
 #include "drivers/Watchdog.h"
