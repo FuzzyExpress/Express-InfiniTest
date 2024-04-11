@@ -167,6 +167,7 @@ WatchFaceAnalog::~WatchFaceAnalog() {
   lv_style_reset(&minute_line_style);
   lv_style_reset(&minute_line_style_trace);
   lv_style_reset(&second_line_style);
+  lv_style_reset(&backdrop);
 
   lv_obj_clean(lv_scr_act());
 }
@@ -191,7 +192,7 @@ void WatchFaceAnalog::UpdateClock() {
   if (sHour != hour || sMinute != minute) {
     sHour = hour;
     sMinute = minute;
-    auto const angle = (hour * 30 + minute / 2);
+    auto const angle = (hour * 30);// + minute / 2);
 
     hour_point[0] = CoordinateRelocate(30, angle);
     hour_point[1] = CoordinateRelocate(HourLength, angle);
